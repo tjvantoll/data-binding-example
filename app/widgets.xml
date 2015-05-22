@@ -1,0 +1,11 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="loaded">
+	<StackLayout>
+		<!-- this works -->
+		<!--<TextField hint="widget name" text="{{ widget.name }}" />
+		<Label text="{{ 'the name is: ' + widget.name }}" />-->
+
+		<!-- This doesn't -->
+		<TextField hint="widget name" text="{{ widget.name }}" />
+		<Label text="{{ 'the name is: ' + widget.name }}" />
+	</StackLayout>
+</Page>
