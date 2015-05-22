@@ -1,10 +1,10 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd" loaded="loaded">
 	<StackLayout>
-		<!-- this works (properties on the view model) -->
-		<!--<TextField hint="widget name" text="{{ name }}" />
-		<Label text="{{ 'the name is: ' + name }}" />-->
+		<Label text="Properties on the view model (this works)" />
+		<TextField hint="widget name" text="{{ name }}" />
+		<Label text="{{ 'the name is: ' + name }}" />
 
-		<!-- This doesn't (properties on the model) -->
+		<Label text="Properties on the model (this doesn't work)" />
 		<TextField hint="widget name" text="{{ widget.name }}" />
 		<Label text="{{ 'the name is: ' + widget.name }}" />
 	</StackLayout>
